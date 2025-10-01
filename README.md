@@ -344,3 +344,101 @@ See the [LICENSE](LICENSE.txt) file for more.
 - Ruff by Astral Software (Linter + Formatter)
 - **SQLite Viewer by Florian Klampfer**
 - WSL by Microsoft (on Windows Machines)
+
+
+
+### consumer_strickland
+How to get client_id and client_secret (step-by-step)
+
+Log in on desktop to your Reddit account.
+
+Open Developer Apps:
+go to https://www.reddit.com/prefs/apps (you must be logged in).
+
+Create a new app
+
+Scroll to Developed Applications → click create another app…
+
+name: learnmath-consumer (anything)
+
+type: select script
+
+description: optional
+
+about url: leave blank
+
+redirect uri: put exactly http://localhost:8080
+
+Click create app.
+
+Where to find the two values after creation
+
+On the app card you just created:
+
+Under the app name, you’ll see a small line that shows “personal use script” and a short string just below it.
+👉 That short string is your client_id.
+
+On the same card you’ll see “secret” followed by a long string.
+👉 That long string is your client_secret.
+
+(You do not need your Reddit password or 2FA for read-only access. Just client_id, client_secret, and a user_agent string.)
+
+Put them in your .env
+
+Create or edit the file at your repo root: .env (no quotes around values):
+
+REDDIT_CLIENT_ID=put_the_short_string_here
+REDDIT_CLIENT_SECRET=put_the_long_secret_here
+REDDIT_USER_AGENT=learnmath-category-consumer by u/YourRedditUsername
+REDDIT_SUBREDDIT=learnmath
+SQLITE_DB_PATH=data/insights.db
+
+
+Tip: Don’t commit .env to GitHub. Keep secrets local. (If .env isn’t in .gitignore, add it.)
+
+Make your code use read-only Reddit (no username/password)
+
+In consumers/consumer_strickland.py, use this builder:
+
+def build_reddit() -> praw.Reddit:
+    if not (REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET and REDDIT_USER_AGENT):
+        raise RuntimeError("Missing client_id/client_secret/user_agent in .env")
+    return praw.Reddit(
+        client_id=REDDIT_CLIENT_ID,
+        client_secret=REDDIT_CLIENT_SECRET,
+        user_agent=REDDIT_USER_AGENT,
+        check_for_async=False,  # avoids warnings
+    )
+
+
+Remove any use of REDDIT_USERNAME / REDDIT_PASSWORD. You won’t need them.
+
+Optional quick sanity check right after reddit = build_reddit():
+
+print("read_only?", reddit.read_only)  # should print True
+
+Run it
+
+From your project folder with the venv active:
+
+py -m consumers.consumer_strickland
+
+
+You should see:
+
+[consumer_molly] Streaming comments from r/learnmath → data/insights.db
+[ok] r/learnmath | <author> → <category>
+...
+
+
+If you still see 401:
+
+Double-check you created an app of type script (not “installed” or “web”).
+
+Re-copy the short string under the app name into REDDIT_CLIENT_ID.
+
+Re-copy the secret string next to the word secret into REDDIT_CLIENT_SECRET.
+
+Make sure your .env has no quotes and no trailing spaces.
+
+Want me to look at your current .env keys layout (with values redacted) and your build_reddit() function? Paste those parts (hiding the actual strings), and I’ll verify line-by-line.

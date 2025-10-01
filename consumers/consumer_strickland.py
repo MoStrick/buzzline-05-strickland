@@ -93,16 +93,15 @@ def insert_message(conn: sqlite3.Connection, ts: str, author: str, category: str
     )
 
 def build_reddit() -> praw.Reddit:
-    if not (REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET and REDDIT_USERNAME and REDDIT_PASSWORD):
-        raise RuntimeError("Missing Reddit credentials in .env")
+    if not (REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET and REDDIT_USER_AGENT):
+        raise RuntimeError("Missing client_id/client_secret/user_agent in .env")
     return praw.Reddit(
         client_id=REDDIT_CLIENT_ID,
         client_secret=REDDIT_CLIENT_SECRET,
-        username=REDDIT_USERNAME,
-        password=REDDIT_PASSWORD,
         user_agent=REDDIT_USER_AGENT,
-        ratelimit_seconds=5
+        check_for_async=False,
     )
+
 
 def process_stream():
     conn = get_conn()

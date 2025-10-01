@@ -159,3 +159,8 @@ duckdb
 # - Needed if DATABASE_TYPE=mysql.
 # Uncomment the line below to install PyMySQL.
 # PyMySQL
+
+
+#requirements for consumer_strickland: categorizing the type of math question from a reddit post:
+pip install praw python-dotenv
+

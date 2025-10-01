@@ -1,7 +1,117 @@
-2025-10-01 15:46:51 | INFO | {'message': 'I just loved an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:46:51', 'category': 'other', 'sentiment': 0.95, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-10-01 15:46:51 | INFO | Called process_message() with:
-2025-10-01 15:46:51 | INFO |    message={'message': 'I just loved an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:46:51', 'category': 'other', 'sentiment': 0.95, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-10-01 15:46:51 | INFO | Calling SQLite insert_message() with:
-2025-10-01 15:46:51 | INFO | message={'message': 'I just loved an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:46:51', 'category': 'other', 'sentiment': 0.95, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-10-01 15:46:51 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
-2025-10-01 15:46:51 | INFO | Inserted one message into the database.
+2025-10-01 15:55:06 | INFO |    message={'message': 'I just found a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:06', 'category': 'humor', 'sentiment': 0.71, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:06 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:06 | INFO | message={'message': 'I just found a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:06', 'category': 'humor', 'sentiment': 0.71, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:06 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:07 | INFO | Inserted one message into the database.
+2025-10-01 15:55:11 | INFO | {'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:11 | INFO | Called process_message() with:
+2025-10-01 15:55:12 | INFO |    message={'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:12 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:12 | INFO | message={'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:12 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:12 | INFO | Inserted one message into the database.
+2025-10-01 15:55:16 | INFO | {'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | Called process_message() with:
+2025-10-01 15:55:17 | INFO |    message={'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:17 | INFO | message={'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:17 | INFO | Inserted one message into the database.
+2025-10-01 15:55:22 | INFO | {'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | Called process_message() with:
+2025-10-01 15:55:22 | INFO |    message={'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:22 | INFO | message={'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:22 | INFO | Inserted one message into the database.
+2025-10-01 15:55:27 | INFO | {'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | Called process_message() with:
+2025-10-01 15:55:27 | INFO |    message={'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:27 | INFO | message={'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:27 | INFO | Inserted one message into the database.
+2025-10-01 15:55:32 | INFO | {'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | Called process_message() with:
+2025-10-01 15:55:32 | INFO |    message={'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:32 | INFO | message={'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:32 | INFO | Inserted one message into the database.
+2025-10-01 15:55:37 | INFO | {'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | Called process_message() with:
+2025-10-01 15:55:37 | INFO |    message={'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:37 | INFO | message={'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:37 | INFO | Inserted one message into the database.
+2025-10-01 15:55:42 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | Called process_message() with:
+2025-10-01 15:55:42 | INFO |    message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:42 | INFO | message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:42 | INFO | Inserted one message into the database.
+2025-10-01 15:55:47 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | Called process_message() with:
+2025-10-01 15:55:47 | INFO |    message={'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:47 | INFO | message={'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:47 | INFO | Inserted one message into the database.
+2025-10-01 15:55:52 | INFO | {'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | Called process_message() with:
+2025-10-01 15:55:52 | INFO |    message={'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:52 | INFO | message={'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:52 | INFO | Inserted one message into the database.
+2025-10-01 15:55:57 | INFO | {'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | Called process_message() with:
+2025-10-01 15:55:57 | INFO |    message={'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:57 | INFO | message={'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:57 | INFO | Inserted one message into the database.
+2025-10-01 15:56:02 | INFO | {'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | Called process_message() with:
+2025-10-01 15:56:02 | INFO |    message={'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:02 | INFO | message={'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:02 | INFO | Inserted one message into the database.
+2025-10-01 15:56:07 | INFO | {'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | Called process_message() with:
+2025-10-01 15:56:07 | INFO |    message={'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:07 | INFO | message={'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:07 | INFO | Inserted one message into the database.
+2025-10-01 15:56:12 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | Called process_message() with:
+2025-10-01 15:56:12 | INFO |    message={'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:12 | INFO | message={'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:12 | INFO | Inserted one message into the database.
+2025-10-01 15:56:17 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | Called process_message() with:
+2025-10-01 15:56:17 | INFO |    message={'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:17 | INFO | message={'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:17 | INFO | Inserted one message into the database.
+2025-10-01 15:56:22 | INFO | {'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | Called process_message() with:
+2025-10-01 15:56:22 | INFO |    message={'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:22 | INFO | message={'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:22 | INFO | Inserted one message into the database.
+2025-10-01 15:56:27 | INFO | {'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | Called process_message() with:
+2025-10-01 15:56:27 | INFO |    message={'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:27 | INFO | message={'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:27 | INFO | Inserted one message into the database.

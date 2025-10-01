@@ -191,9 +191,9 @@ py -m consumers.kafka_consumer_case
 OR
 py -m consumers.file_consumer_case
 OR
-py -m consumers.sqlite_consumer_case.py
+py -m consumers.sqlite_consumer_case
 OR
-py -m consumers.duckdb_consumer_case.py
+py -m consumers.duckdb_consumer_case
 ```
 
 Mac/Linux:

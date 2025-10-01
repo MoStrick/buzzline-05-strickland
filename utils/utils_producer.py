@@ -22,6 +22,8 @@ from kafka.admin import (
     NewTopic,
 )
 
+from kafka import KafkaConsumer
+
 # Import functions from local modules
 from utils.utils_logger import logger
 
@@ -129,6 +131,33 @@ def create_kafka_producer(
         logger.error(f"Failed to create Kafka producer: {e}")
         return None
 
+
+def is_topic_available(topic: str,
+                       bootstrap_servers: str | None = None,
+                       timeout_s: float = 5.0) -> bool:
+    """
+    Return True if `topic` exists on the cluster, else False.
+    Uses a lightweight KafkaConsumer to fetch metadata.
+    """
+    if bootstrap_servers is None:
+        bootstrap_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
+
+    try:
+        consumer = KafkaConsumer(
+            bootstrap_servers=bootstrap_servers,
+            request_timeout_ms=int(timeout_s * 1000),
+            api_version_auto_timeout_ms=3000,
+            enable_auto_commit=False,
+        )
+        topics = consumer.topics()  # fetch metadata
+        consumer.close()
+        available = topic in topics
+        if not available:
+            logger.warning(f"Topic '{topic}' not found on {bootstrap_servers}. Known topics: {sorted(topics)}")
+        return available
+    except Exception as e:
+        logger.error(f"Topic availability check failed for '{topic}': {e}")
+        return False
 
 def _topic_exists(admin: KafkaAdminClient, topic_name: str) -> bool:
     try:

@@ -1,0 +1,5 @@
+2025-10-01 13:15:06 | INFO | {'message': 'I just tried game! It was weird.', 'author': 'Charlie', 'timestamp': '2025-10-01 13:15:06', 'category': 'gaming', 'sentiment': 0.4, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-10-01 13:15:06 | INFO | Inserted one message into DuckDB.
+2025-10-01 13:15:06 | INFO | Verified insert. Latest row id=3
+2025-10-01 13:15:06 | INFO | Deleted message with id 3 from DuckDB.
+2025-10-01 13:15:06 | INFO | Finished DuckDB db testing.

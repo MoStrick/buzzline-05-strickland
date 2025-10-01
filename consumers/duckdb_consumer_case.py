@@ -47,12 +47,16 @@ def init_db(db_path: pathlib.Path) -> None:
 
         # For a fresh start, drop then create
         con.execute("DROP TABLE IF EXISTS streamed_messages;")
+        
+        # Use a sequence to emulate auto-increment BIGINT in DuckDB
+        con.execute("CREATE SEQUENCE IF NOT EXISTS streamed_messages_id_seq START 1;")
+
         con.execute(
             """
             CREATE TABLE streamed_messages (
-                id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, -- auto-increment
+                id BIGINT PRIMARY KEY DEFAULT nextval('streamed_messages_id_seq'),
                 message TEXT,
-                author TEXT,
+                author TEXT,    
                 timestamp TEXT,
                 category TEXT,
                 sentiment DOUBLE,

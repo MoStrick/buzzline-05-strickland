@@ -25,7 +25,7 @@ REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
 REDDIT_USERNAME      = os.getenv("REDDIT_USERNAME")
 REDDIT_PASSWORD      = os.getenv("REDDIT_PASSWORD")
 REDDIT_USER_AGENT    = os.getenv("REDDIT_USER_AGENT", "learnmath-category-consumer")
-SUBREDDIT            = os.getenv("REDDIT_SUBREDDIT", "learnmath")
+SUBREDDIT            = os.getenv("REDDIT_SUBREDDIT", "learnmath+mathhelp+askmath")
 
 DB_PATH              = os.getenv("SQLITE_DB_PATH", "data/insights.db")
 os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
@@ -111,8 +111,8 @@ def process_stream():
     sub = reddit.subreddit(SUBREDDIT)
 
     print(f"[consumer_molly] Streaming comments from r/{SUBREDDIT} → {DB_PATH}")
-    # skip_existing=True starts from *new* comments only
-    for comment in sub.stream.comments(skip_existing=True):
+    # Let PRAW yield recent comments first (so you have data immediately)
+    for comment in sub.stream.comments(skip_existing=False):
         try:
             text = comment.body or ""
             category = classify_category(text)

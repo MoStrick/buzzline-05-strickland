@@ -164,3 +164,5 @@ duckdb
 #requirements for consumer_strickland: categorizing the type of math question from a reddit post:
 pip install praw python-dotenv
 
+#requirements for visualize_category_counts.py
+pip install matplotlib python-dotenv

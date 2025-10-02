@@ -347,8 +347,24 @@ See the [LICENSE](LICENSE.txt) file for more.
 
 
 
-### consumer_strickland
-How to get client_id and client_secret (step-by-step)
+
+
+### New Consumer — `consumer_strickland.py`: Reddit r/learnmath → Category Distribution (SQLite)
+
+**Ingest Source:** Live Reddit comments from `r/learnmath` using `praw`  
+**Insight:** Classify each new comment into math categories (algebra, calculus, geometry, statistics, precalculus, general) and update **category distribution** counts in SQLite.
+
+**Why it’s interesting:** Shows which math topics dominate in real time—useful for planning lessons, targeted supports, and engagement analysis.
+
+### What We Store
+- `category_counts(category TEXT PRIMARY KEY, total_msgs INT, last_ts TEXT)`
+- `messages_processed(id PK, ts, author, category, snippet)` (audit trail)
+
+### Setup
+1. Create a Reddit **script** app at https://www.reddit.com/prefs/apps to get `client_id` and `client_secret`.
+2. Create `.env`:
+
+# How to get client_id and client_secret (step-by-step)
 
 Log in on desktop to your Reddit account.
 
@@ -440,5 +456,3 @@ Re-copy the short string under the app name into REDDIT_CLIENT_ID.
 Re-copy the secret string next to the word secret into REDDIT_CLIENT_SECRET.
 
 Make sure your .env has no quotes and no trailing spaces.
-
-Want me to look at your current .env keys layout (with values redacted) and your build_reddit() function? Paste those parts (hiding the actual strings), and I’ll verify line-by-line.

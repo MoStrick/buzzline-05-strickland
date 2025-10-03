@@ -1,11 +1,11 @@
 """
-consumer_molly.py
+consumer_strickland.py
 
 Live Reddit stream (subreddit: r/learnmath by default) -> SQLite category distribution.
 Processes ONE comment at a time: classify into a math category and update counts.
 
 Run:
-    py -m consumers.consumer_molly
+    py -m consumers.consumer_strickland
 """
 
 import os

@@ -166,3 +166,10 @@ pip install praw python-dotenv
 
 #requirements for visualize_category_counts.py
 pip install matplotlib python-dotenv
+
+#requirements for global sumud flotilla project
+pip install praw tldextract vaderSentiment nrclex spacy pycountry sqlite3
+pip install geopandas shapely cartopy
+pip install plotly
+pip install python-dotenv tldextract matplotlib
+

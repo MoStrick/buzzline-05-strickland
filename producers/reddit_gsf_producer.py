@@ -57,7 +57,7 @@ from utils.utils_logger import logger
 from utils.emitters import file_emitter, kafka_emitter, sqlite_emitter, duckdb_emitter
 
 # country helper (uses outlet_country_map internally)
-from utils_country import get_country_from_domain
+from utils.utils_country import get_country_from_domain
 
 
 #####################################

@@ -17,3 +17,11 @@ Project 6
 │     ├─ kafka_emitter.py            # NEW: send to Kafka
 │     ├─ sqlite_emitter.py           # NEW: persist to SQLite
 │     └─ duckdb_emitter.py           # NEW: persist to DuckDB
+
+
+requirements
+One time download (manual)
+    python -m nltk.downloader vader_lexicon
+
+
+python -m consumers.reddit_gsf_consumer

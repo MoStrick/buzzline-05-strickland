@@ -170,6 +170,7 @@ tldextract
 
 # analytics
 vaderSentiment
+vader lexicon
 nrclex
 pycountry
 pandas

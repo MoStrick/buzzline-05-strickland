@@ -115,3 +115,63 @@
 2025-10-01 15:56:27 | INFO | message={'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
 2025-10-01 15:56:27 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
 2025-10-01 15:56:27 | INFO | Inserted one message into the database.
+2025-10-04 15:56:05 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:05 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:56:30 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:30 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:56:48 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:48 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:27 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:58:27 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:39 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:58:39 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:39 | INFO | Starting Reddit GSF Producer (Ctrl+C to stop).
+2025-10-04 15:58:39 | INFO | MESSAGE_INTERVAL_SECONDS: 1
+2025-10-04 15:58:39 | INFO | BUZZ_TOPIC: gsf_event_stream
+2025-10-04 15:58:39 | INFO | KAFKA_BROKER_ADDRESS: localhost:9092
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | DUCKDB_PATH: PROJECT_ROOT/data/buzz.duckdb
+2025-10-04 15:58:39 | INFO | Deleted existing file: PROJECT_ROOT/data/project_live.json
+2025-10-04 15:58:39 | INFO | REDDIT_CLIENT_ID: [SET]
+2025-10-04 15:58:39 | INFO | REDDIT_CLIENT_SECRET: [SET]
+2025-10-04 15:58:39 | INFO | REDDIT_USER_AGENT: data-streaming by u/Impressive-Emu-2362
+2025-10-04 15:58:40 | INFO | Reddit client ready (read-only).
+2025-10-04 15:58:40 | INFO | Kafka broker address: localhost:9092
+2025-10-04 15:58:40 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'tiKA5ugtSiOWXLR-EAHeUA', 'controller_id': 1}
+2025-10-04 15:58:40 | INFO | Kafka producer connected to localhost:9092
+2025-10-04 15:58:40 | INFO | Kafka broker address: localhost:9092
+2025-10-04 15:58:40 | INFO | Topic 'gsf_event_stream' created successfully.
+2025-10-04 15:58:40 | INFO | Kafka topic 'gsf_event_stream' is ready.
+2025-10-04 15:58:42 | INFO | {'source': 'submission', 'id': 't3_1nxwkpi', 'utc_ts': '2025-10-04T20:58:42Z', 'subreddit': 'Palestine', 'permalink': 'https://www.reddit.com/r/Palestine/comments/1nxwkpi/one_million_italians_protest_flotilla_raid/', 'author': 'NothingButTruth3', 'text': 'One million Italians protest flotilla raid', 'urls': ['https://i.redd.it/01kitmin24tf1.jpeg'], 'url_domains': ['redd.it'], 'country': 'ITA', 'score': 448, 'num_comments': 5}
+2025-10-04 15:58:43 | INFO | {'source': 'submission', 'id': 't3_1nxx5c9', 'utc_ts': '2025-10-04T20:58:43Z', 'subreddit': 'Palestine', 'permalink': 'https://www.reddit.com/r/Palestine/comments/1nxx5c9/free_the_flotilla_hostages/', 'author': 'Butterflies_pdf', 'text': 'Free the flotilla hostages', 'urls': ['https://www.reddit.com/gallery/1nxx5c9'], 'url_domains': ['reddit.com'], 'country': 'UNK', 'score': 2499, 'num_comments': 66}
+2025-10-04 16:03:39 | INFO | Logging to file: logs/project_log.log
+2025-10-04 16:03:39 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 16:03:39 | INFO | Starting Reddit GSF Consumer. Ctrl+C to stop.
+2025-10-04 16:03:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:03:39 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 16:03:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:03:39 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 16:03:39 | ERROR | VADER not available. Did you download vader_lexicon?
+2025-10-04 16:06:29 | INFO | {'source': 'comment', 'id': 't1_nhs8ro0', 'utc_ts': '2025-10-04T21:06:29Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhs8ro0/', 'author': 'Demonokuma', 'text': ">while they are at home doing nothing./n/nThat's all most people can afford to do. Lmao. If i had the money and resources and the time off to just go do shit like she does, that would be amazing. I still would not do a flotilla. It still seems like such a waste of time to show what most people would know would happen.", 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:07:22 | INFO | Logging to file: logs/project_log.log
+2025-10-04 16:07:22 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 16:07:22 | INFO | Starting Reddit GSF Consumer. Ctrl+C to stop.
+2025-10-04 16:07:22 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:07:22 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 16:07:22 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:07:22 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 16:07:22 | INFO | NRCLex available: NRC emotions will be computed.
+2025-10-04 16:07:23 | INFO | KAFKA_BROKER_ADDRESS: localhost:9092
+2025-10-04 16:07:23 | INFO | BUZZ_TOPIC: gsf_event_stream
+2025-10-04 16:07:23 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group_db
+2025-10-04 16:07:23 | INFO | KafkaConsumer connected to localhost:9092, topic=gsf_event_stream, group=buzz_group_db
+2025-10-04 16:07:54 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:08:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:08:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:09:26 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:09:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:10:28 | INFO | Flushed aggregates to SQLite.

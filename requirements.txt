@@ -162,14 +162,18 @@ duckdb
 
 
 #requirements for consumer_strickland: categorizing the type of math question from a reddit post:
-pip install praw python-dotenv
+# core streaming + reddit
+praw
+kafka-python
+python-dotenv
+tldextract
 
-#requirements for visualize_category_counts.py
-pip install matplotlib python-dotenv
+# analytics
+vaderSentiment
+nrclex
+pycountry
+pandas
 
-#requirements for global sumud flotilla project
-pip install praw tldextract vaderSentiment nrclex spacy pycountry sqlite3
-pip install geopandas shapely cartopy
-pip install plotly
-pip install python-dotenv tldextract matplotlib
-
+# visuals
+matplotlib
+plotly

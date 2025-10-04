@@ -152,6 +152,35 @@ def get_mongodb_collection() -> str:
     logger.info(f"MONGODB_COLLECTION: {collection}")
     return collection
 
+# --- Reddit API getters (required for reddit_gsf_producer.py) ---
+def get_reddit_client_id() -> str:
+    cid = os.getenv("REDDIT_CLIENT_ID")
+    if not cid:
+        raise RuntimeError("Missing env var REDDIT_CLIENT_ID")
+    logger.info("REDDIT_CLIENT_ID: [SET]")
+    return cid
+
+def get_reddit_client_secret() -> str:
+    sec = os.getenv("REDDIT_CLIENT_SECRET")
+    if not sec:
+        raise RuntimeError("Missing env var REDDIT_CLIENT_SECRET")
+    logger.info("REDDIT_CLIENT_SECRET: [SET]")
+    return sec
+
+def get_reddit_user_agent() -> str:
+    ua = os.getenv("REDDIT_USER_AGENT", "gsf-producer/0.1 by yourname")
+    logger.info(f"REDDIT_USER_AGENT: {ua}")
+    return ua
+
+# --- DuckDB path (optional; used if you enable DuckDB emitter) ---
+def get_duckdb_path() -> pathlib.Path:
+    duckdb_path = get_base_data_path() / os.getenv("DUCKDB_DB_FILE_NAME", "buzz.duckdb")
+    logger.info(f"DUCKDB_PATH: {duckdb_path}")
+    return duckdb_path
+
+
+
+
 
 #####################################
 # Conditional Execution
@@ -177,6 +206,11 @@ if __name__ == "__main__":
         get_mongodb_uri()
         get_mongodb_db()
         get_mongodb_collection()
+        get_reddit_client_id()
+        get_reddit_client_secret()
+        get_reddit_user_agent()
+        get_duckdb_path()
+
         logger.info("SUCCESS: Configuration function tests complete.")
 
     except Exception as e:

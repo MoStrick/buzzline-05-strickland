@@ -1,0 +1,383 @@
+2025-10-01 15:55:06 | INFO |    message={'message': 'I just found a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:06', 'category': 'humor', 'sentiment': 0.71, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:06 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:06 | INFO | message={'message': 'I just found a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:06', 'category': 'humor', 'sentiment': 0.71, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:06 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:07 | INFO | Inserted one message into the database.
+2025-10-01 15:55:11 | INFO | {'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:11 | INFO | Called process_message() with:
+2025-10-01 15:55:12 | INFO |    message={'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:12 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:12 | INFO | message={'message': 'I just loved JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:11', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-10-01 15:55:12 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:12 | INFO | Inserted one message into the database.
+2025-10-01 15:55:16 | INFO | {'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | Called process_message() with:
+2025-10-01 15:55:17 | INFO |    message={'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:17 | INFO | message={'message': 'I just loved recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:16', 'category': 'food', 'sentiment': 0.9, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-10-01 15:55:17 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:17 | INFO | Inserted one message into the database.
+2025-10-01 15:55:22 | INFO | {'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | Called process_message() with:
+2025-10-01 15:55:22 | INFO |    message={'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:22 | INFO | message={'message': 'I just tried a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:22', 'category': 'other', 'sentiment': 0.86, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-10-01 15:55:22 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:22 | INFO | Inserted one message into the database.
+2025-10-01 15:55:27 | INFO | {'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | Called process_message() with:
+2025-10-01 15:55:27 | INFO |    message={'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:27 | INFO | message={'message': 'I just shared recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:27', 'category': 'food', 'sentiment': 0.97, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-10-01 15:55:27 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:27 | INFO | Inserted one message into the database.
+2025-10-01 15:55:32 | INFO | {'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | Called process_message() with:
+2025-10-01 15:55:32 | INFO |    message={'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:32 | INFO | message={'message': 'I just tried travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:32', 'category': 'travel', 'sentiment': 0.56, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:55:32 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:32 | INFO | Inserted one message into the database.
+2025-10-01 15:55:37 | INFO | {'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | Called process_message() with:
+2025-10-01 15:55:37 | INFO |    message={'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:37 | INFO | message={'message': 'I just tried a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-10-01 15:55:37', 'category': 'other', 'sentiment': 0.89, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-10-01 15:55:37 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:37 | INFO | Inserted one message into the database.
+2025-10-01 15:55:42 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | Called process_message() with:
+2025-10-01 15:55:42 | INFO |    message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:42 | INFO | message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:42', 'category': 'entertainment', 'sentiment': 0.6, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-10-01 15:55:42 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:42 | INFO | Inserted one message into the database.
+2025-10-01 15:55:47 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | Called process_message() with:
+2025-10-01 15:55:47 | INFO |    message={'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:47 | INFO | message={'message': 'I just saw an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:47', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-10-01 15:55:47 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:47 | INFO | Inserted one message into the database.
+2025-10-01 15:55:52 | INFO | {'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | Called process_message() with:
+2025-10-01 15:55:52 | INFO |    message={'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:52 | INFO | message={'message': 'I just loved a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-10-01 15:55:52', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-10-01 15:55:52 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:52 | INFO | Inserted one message into the database.
+2025-10-01 15:55:57 | INFO | {'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | Called process_message() with:
+2025-10-01 15:55:57 | INFO |    message={'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:55:57 | INFO | message={'message': 'I just saw an app! It was amazing.', 'author': 'Alice', 'timestamp': '2025-10-01 15:55:57', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-10-01 15:55:57 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:55:57 | INFO | Inserted one message into the database.
+2025-10-01 15:56:02 | INFO | {'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | Called process_message() with:
+2025-10-01 15:56:02 | INFO |    message={'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:02 | INFO | message={'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:02', 'category': 'tech', 'sentiment': 0.82, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:02 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:02 | INFO | Inserted one message into the database.
+2025-10-01 15:56:07 | INFO | {'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | Called process_message() with:
+2025-10-01 15:56:07 | INFO |    message={'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:07 | INFO | message={'message': 'I just tried travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:07', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-10-01 15:56:07 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:07 | INFO | Inserted one message into the database.
+2025-10-01 15:56:12 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | Called process_message() with:
+2025-10-01 15:56:12 | INFO |    message={'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:12 | INFO | message={'message': 'I just found Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:12', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-10-01 15:56:12 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:12 | INFO | Inserted one message into the database.
+2025-10-01 15:56:17 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | Called process_message() with:
+2025-10-01 15:56:17 | INFO |    message={'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:17 | INFO | message={'message': 'I just tried a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-10-01 15:56:17', 'category': 'humor', 'sentiment': 0.7, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-10-01 15:56:17 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:17 | INFO | Inserted one message into the database.
+2025-10-01 15:56:22 | INFO | {'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | Called process_message() with:
+2025-10-01 15:56:22 | INFO |    message={'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:22 | INFO | message={'message': 'I just shared a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-10-01 15:56:22', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-10-01 15:56:22 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:22 | INFO | Inserted one message into the database.
+2025-10-01 15:56:27 | INFO | {'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | Called process_message() with:
+2025-10-01 15:56:27 | INFO |    message={'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | Calling SQLite insert_message() with:
+2025-10-01 15:56:27 | INFO | message={'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-10-01 15:56:27', 'category': 'tech', 'sentiment': 0.18, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-10-01 15:56:27 | INFO | db_path=WindowsPath('C:/Data_Projects/buzzline-05-strickland/data/buzz.sqlite')
+2025-10-01 15:56:27 | INFO | Inserted one message into the database.
+2025-10-04 15:56:05 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:05 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:56:30 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:30 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:56:48 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:56:48 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:27 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:58:27 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:39 | INFO | Logging to file: logs/project_log.log
+2025-10-04 15:58:39 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 15:58:39 | INFO | Starting Reddit GSF Producer (Ctrl+C to stop).
+2025-10-04 15:58:39 | INFO | MESSAGE_INTERVAL_SECONDS: 1
+2025-10-04 15:58:39 | INFO | BUZZ_TOPIC: gsf_event_stream
+2025-10-04 15:58:39 | INFO | KAFKA_BROKER_ADDRESS: localhost:9092
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 15:58:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 15:58:39 | INFO | DUCKDB_PATH: PROJECT_ROOT/data/buzz.duckdb
+2025-10-04 15:58:39 | INFO | Deleted existing file: PROJECT_ROOT/data/project_live.json
+2025-10-04 15:58:39 | INFO | REDDIT_CLIENT_ID: [SET]
+2025-10-04 15:58:39 | INFO | REDDIT_CLIENT_SECRET: [SET]
+2025-10-04 15:58:39 | INFO | REDDIT_USER_AGENT: data-streaming by u/Impressive-Emu-2362
+2025-10-04 15:58:40 | INFO | Reddit client ready (read-only).
+2025-10-04 15:58:40 | INFO | Kafka broker address: localhost:9092
+2025-10-04 15:58:40 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'tiKA5ugtSiOWXLR-EAHeUA', 'controller_id': 1}
+2025-10-04 15:58:40 | INFO | Kafka producer connected to localhost:9092
+2025-10-04 15:58:40 | INFO | Kafka broker address: localhost:9092
+2025-10-04 15:58:40 | INFO | Topic 'gsf_event_stream' created successfully.
+2025-10-04 15:58:40 | INFO | Kafka topic 'gsf_event_stream' is ready.
+2025-10-04 15:58:42 | INFO | {'source': 'submission', 'id': 't3_1nxwkpi', 'utc_ts': '2025-10-04T20:58:42Z', 'subreddit': 'Palestine', 'permalink': 'https://www.reddit.com/r/Palestine/comments/1nxwkpi/one_million_italians_protest_flotilla_raid/', 'author': 'NothingButTruth3', 'text': 'One million Italians protest flotilla raid', 'urls': ['https://i.redd.it/01kitmin24tf1.jpeg'], 'url_domains': ['redd.it'], 'country': 'ITA', 'score': 448, 'num_comments': 5}
+2025-10-04 15:58:43 | INFO | {'source': 'submission', 'id': 't3_1nxx5c9', 'utc_ts': '2025-10-04T20:58:43Z', 'subreddit': 'Palestine', 'permalink': 'https://www.reddit.com/r/Palestine/comments/1nxx5c9/free_the_flotilla_hostages/', 'author': 'Butterflies_pdf', 'text': 'Free the flotilla hostages', 'urls': ['https://www.reddit.com/gallery/1nxx5c9'], 'url_domains': ['reddit.com'], 'country': 'UNK', 'score': 2499, 'num_comments': 66}
+2025-10-04 16:03:39 | INFO | Logging to file: logs/project_log.log
+2025-10-04 16:03:39 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 16:03:39 | INFO | Starting Reddit GSF Consumer. Ctrl+C to stop.
+2025-10-04 16:03:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:03:39 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 16:03:39 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:03:39 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 16:03:39 | ERROR | VADER not available. Did you download vader_lexicon?
+2025-10-04 16:06:29 | INFO | {'source': 'comment', 'id': 't1_nhs8ro0', 'utc_ts': '2025-10-04T21:06:29Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhs8ro0/', 'author': 'Demonokuma', 'text': ">while they are at home doing nothing./n/nThat's all most people can afford to do. Lmao. If i had the money and resources and the time off to just go do shit like she does, that would be amazing. I still would not do a flotilla. It still seems like such a waste of time to show what most people would know would happen.", 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:07:22 | INFO | Logging to file: logs/project_log.log
+2025-10-04 16:07:22 | INFO | Log sanitization enabled, personal info removed
+2025-10-04 16:07:22 | INFO | Starting Reddit GSF Consumer. Ctrl+C to stop.
+2025-10-04 16:07:22 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:07:22 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-10-04 16:07:22 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-10-04 16:07:22 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-10-04 16:07:22 | INFO | NRCLex available: NRC emotions will be computed.
+2025-10-04 16:07:23 | INFO | KAFKA_BROKER_ADDRESS: localhost:9092
+2025-10-04 16:07:23 | INFO | BUZZ_TOPIC: gsf_event_stream
+2025-10-04 16:07:23 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group_db
+2025-10-04 16:07:23 | INFO | KafkaConsumer connected to localhost:9092, topic=gsf_event_stream, group=buzz_group_db
+2025-10-04 16:07:54 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:08:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:08:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:09:26 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:09:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:10:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:10:59 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:11:30 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:12:01 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:12:32 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:13:03 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:13:34 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:14:05 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:14:37 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:15:08 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:15:34 | INFO | {'source': 'comment', 'id': 't1_nhsai4r', 'utc_ts': '2025-10-04T21:15:34Z', 'subreddit': 'Palestine', 'permalink': 'https://www.reddit.com/r/Palestine/comments/1nxti42/how_the_turntables/nhsai4r/', 'author': 'ConsciousThing9182', 'text': 'As a related question: I saw a popular post on Insty saying one of the Flotilla members claimed the Israelis forced Greta to crawl on her knees and kiss the Israeli flag. That seems pretty unbelievable but has anyone else here seen and vetted this story?', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:15:38 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:16:09 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:16:40 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:17:10 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:17:41 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:18:12 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:18:43 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:19:13 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:19:44 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:20:15 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:20:46 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:21:17 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:21:48 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:22:19 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:22:50 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:23:20 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:23:51 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:24:22 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:24:53 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:25:24 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:25:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:26:26 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:26:56 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:27:27 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:27:58 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:28:29 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:29:00 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:29:31 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:30:02 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:30:33 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:30:52 | INFO | {'source': 'comment', 'id': 't1_nhsdcto', 'utc_ts': '2025-10-04T21:30:52Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsdcto/', 'author': 'Sea_Anxiety_5596', 'text': "Idiots in the comments willfully don't want to realize Flotilla has been extremely successful in generating protests across countries, and straining Israel's relationship with Europe", 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:31:03 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:31:34 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:32:06 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:32:37 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:33:08 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:33:39 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:34:10 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:34:41 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:35:12 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:35:43 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:36:14 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:36:45 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:37:16 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:37:47 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:37:49 | INFO | {'source': 'comment', 'id': 't1_nhselqp', 'utc_ts': '2025-10-04T21:37:49Z', 'subreddit': 'Israel', 'permalink': 'https://www.reddit.com/r/Israel/comments/1nxa5gu/israel_no_aid_found_on_gazabound_flotilla_the/nhselqp/', 'author': 'Swimming-Art-1798', 'text': 'Actually there was plenty of aid onboard /nHere’s a statement from the flotilla: https://globalsumudflotilla.org/media/press/LIES%20CONTINUE.pdf And here’s a google drive link to photos and videos of the stuff they carried: https://drive.google.com/drive/mobile/folders/1oeD1ECertQS9SOomqj2x7-yH0M0fnIGZ?usp=sharing', 'urls': ['https://globalsumudflotilla.org/media/press/LIES%20CONTINUE.pdf', 'https://drive.google.com/drive/mobile/folders/1oeD1ECertQS9SOomqj2x7-yH0M0fnIGZ?usp=sharing'], 'url_domains': ['globalsumudflotilla.org', 'google.com'], 'country': 'UNK', 'score': 1}
+2025-10-04 16:38:17 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:38:48 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:39:19 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:39:50 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:40:21 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:40:42 | INFO | {'source': 'comment', 'id': 't1_nhsf54i', 'utc_ts': '2025-10-04T21:40:42Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsf54i/', 'author': 'Kumquat_conniption', 'text': 'Well this is what else is happening to Greta: /n/n"“They dragged little Greta //[Thunberg//] by her hair before our eyes, beat her, and forced her to kiss the Israeli flag. They did everything imaginable to her, as a warning to others,” the Turkish activist ErsinÇelik, a participant in the Sumud flotilla, told Anadolu news agency." /n/nSo yes, she is being tortured.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:40:52 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:41:23 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:41:48 | INFO | {'source': 'comment', 'id': 't1_nhsfcbc', 'utc_ts': '2025-10-04T21:41:48Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsfcbc/', 'author': 'Kumquat_conniption', 'text': 'They also did this: /n/n"“They dragged little Greta //[Thunberg//] by her hair before our eyes, beat her, and forced her to kiss the Israeli flag. They did everything imaginable to her, as a warning to others,” the Turkish activist ErsinÇelik, a participant in the Sumud flotilla, told Anadolu news agency." /n/nSo maybe don/'t just read the headlines?? Yes, fuck IDF.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:41:53 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:42:24 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:42:46 | INFO | {'source': 'comment', 'id': 't1_nhsfire', 'utc_ts': '2025-10-04T21:42:46Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsfire/', 'author': 'Kumquat_conniption', 'text': 'She is going through this: /n/n“They dragged little Greta //[Thunberg//] by her hair before our eyes, beat her, and forced her to kiss the Israeli flag. They did everything imaginable to her, as a warning to others,” the Turkish activist ErsinÇelik, a participant in the Sumud flotilla, told Anadolu news agency./n/nSo yes, PTSD.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:42:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:43:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:43:56 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:44:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:44:45 | INFO | {'source': 'comment', 'id': 't1_nhsfvb8', 'utc_ts': '2025-10-04T21:44:45Z', 'subreddit': 'politics', 'permalink': 'https://www.reddit.com/r/politics/comments/1ny69zj/celebrity_activist_greta_thunberg_being_held_in/nhsfvb8/', 'author': 'OldFaithlessness1335', 'text': 'She was on the aid flotilla from Spain that was captured by the Isreali military late thus week. Then the entire foltilla was labeled terrorists by the Isreali government.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:44:59 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:57:06 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:57:08 | INFO | {'source': 'comment', 'id': 't1_nhsg2q6', 'utc_ts': '2025-10-04T21:57:08Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsg2q6/', 'author': 'Kumquat_conniption', 'text': 'Can anyone read beyond headlines??? /n/n“They dragged little Greta //[Thunberg//] by her hair before our eyes, beat her, and forced her to kiss the Israeli flag. They did everything imaginable to her, as a warning to others,” the Turkish activist ErsinÇelik, a participant in the Sumud flotilla, told Anadolu news agency./n/nYes. She is being traumatized.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 16:57:10 | INFO | {'source': 'comment', 'id': 't1_nhsgml6', 'utc_ts': '2025-10-04T21:57:10Z', 'subreddit': 'politics', 'permalink': 'https://www.reddit.com/r/politics/comments/1ny69zj/celebrity_activist_greta_thunberg_being_held_in/nhsgml6/', 'author': 'loverofonion', 'text': "'Celebrity Climate activist Greta Thunberg claims she’s been subjected to heinous conditions inside a bedbug-infested Israeli holding cell following her/xa0[detention as part of an aid flotilla bound for Gaza](https://nypost.com/2025/10/01/world-news/greta-thunberg-hamas-sumud-flotilla-intercepted-by-israel-yet-again-after-trying-to-reach-gaza/)'.", 'urls': ["https://nypost.com/2025/10/01/world-news/greta-thunberg-hamas-sumud-flotilla-intercepted-by-israel-yet-again-after-trying-to-reach-gaza/)'."], 'url_domains': ['nypost.com'], 'country': 'UNK', 'score': 1}
+2025-10-04 16:57:37 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:58:08 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:58:38 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:59:10 | INFO | Flushed aggregates to SQLite.
+2025-10-04 16:59:41 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:00:12 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:00:43 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:01:14 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:01:45 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:02:16 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:02:25 | INFO | {'source': 'comment', 'id': 't1_nhsj3u3', 'utc_ts': '2025-10-04T22:02:25Z', 'subreddit': 'politics', 'permalink': 'https://www.reddit.com/r/politics/comments/1ny69zj/celebrity_activist_greta_thunberg_being_held_in/nhsj3u3/', 'author': 'OldFaithlessness1335', 'text': 'Thurnberg is still imprisoned. This is from personal who were already released./n/nhttps://www.theguardian.com/world/2025/oct/04/greta-thunberg-israel-gaza-sweden/n/nhttps://www.reuters.com/world/middle-east/turkey-says-citizens-gaza-aid-flotilla-return-special-flight-saturday-2025-10-04https://www.google.com/amp/s/www.aljazeera.com/amp/news/2025/10/4/greta-thunberg-mistreated-by-israeli-forces-in-detention-activists-say/n/nThe al Jazeera one is the most salcious, which I posted the NY Post/n/nhttps://www.timesofisrael.com/liveblog_entry/greta-thunberg-receiving-insufficient-food-and-water-harsh-treatment-after-arrest-report', 'urls': ['https://www.theguardian.com/world/2025/oct/04/greta-thunberg-israel-gaza-sweden', 'https://www.reuters.com/world/middle-east/turkey-says-citizens-gaza-aid-flotilla-return-special-flight-saturday-2025-10-04https://www.google.com/amp/s/www.aljazeera.com/amp/news/2025/10/4/greta-thunberg-mistreated-by-israeli-forces-in-detention-activists-say', 'https://www.timesofisrael.com/liveblog_entry/greta-thunberg-receiving-insufficient-food-and-water-harsh-treatment-after-arrest-report'], 'url_domains': ['theguardian.com', 'reuters.com', 'timesofisrael.com'], 'country': 'GBR', 'score': 1}
+2025-10-04 17:02:47 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:03:18 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:03:49 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:04:20 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:04:52 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:05:23 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:05:54 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:06:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:06:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:07:27 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:07:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:08:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:08:58 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:09:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:09:52 | INFO | {'source': 'comment', 'id': 't1_nhskffq', 'utc_ts': '2025-10-04T22:09:52Z', 'subreddit': 'Israel', 'permalink': 'https://www.reddit.com/r/Israel/comments/1nxa5gu/israel_no_aid_found_on_gazabound_flotilla_the/nhskffq/', 'author': 'dotancohen', 'text': "> a bunch of tampon boxes but they were all open/n/nSome of the flotilla guys needed them, that's why the actual Muslims left them in Tunis.", 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:09:53 | INFO | {'source': 'comment', 'id': 't1_nhskfp6', 'utc_ts': '2025-10-04T22:09:53Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhskfp6/', 'author': 'bmd539', 'text': 'Putting one’s own life and livelihood on the line for another person, or an entire people, is an incredibly noble and brave act. It is precisely because _none of the people in the flotilla were forced to go_ that we celebrate and support them. They could have stayed home, like all of us, but they chose to resist and put their lives on the line, not because they thought they would succeed, but because babies are starving to death and they had to _try_ to help. No beating heart with even the smallest ember of love in it can accept what Israel and the West are doing, have done, and are continuing to do. /n/nWhy is it noble? Why is it brave? Because they knew they were sailing towards waters and land wholly controlled by a government that again and again has shown no regard for human life, has stolen every inch of land they live on, has bombed and maimed millions of innocents for nearly 100 years (Zionist gangs were the first to attack innocent civilians as early as the 1920s and 1930s; look up the Irgun/Etzel, Haganah, Stern, and/or Lehi gangs if this is news to you), and which has attacked previous humanitarian operations with impunity before them.  They sailed knowing they might fail, but they knew, like white Freedom Riders did in the American Civil Rights movement, that they might be able to bring attention and action to the plight of Palestinians precisely because their Western world values their lives more than the lives of Palestinians. And whether it’s Greta Thunberg being pulled around by her hair, being forced to kiss the Israeli flag, and being held in inhumane conditions, or Rachel Corrie putting her body in the way of Israeli armored bulldozers to try to save Palestinian homes and getting run over and murdered by that very bulldozer for her bravery and goodness, or every other non-Palestinian that was killed or maimed trying to protect human life, they force people to aka, “if the IDF is doing this to people who have the eyes of the world on them, what unimaginable evils might they be doing to Palestinians in the dark of a media environment where approximately 200 journalists have been killed in just 2 years. /n/nAt this point the situation and facts are clear beyond any reasonable skepticism. May our hearts be guided to truth and justice, even if they justice requires us to testify against ourselves.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:09:59 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:10:30 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:11:00 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:11:30 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:12:01 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:12:32 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:13:02 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:13:32 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:14:02 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:14:32 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:15:02 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:15:33 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:16:03 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:16:33 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:17:03 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:17:33 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:18:04 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:18:34 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:19:05 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:19:36 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:20:07 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:20:38 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:21:08 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:21:39 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:22:09 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:22:40 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:23:10 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:23:41 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:23:42 | INFO | {'source': 'comment', 'id': 't1_nhsmx6g', 'utc_ts': '2025-10-04T22:23:42Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsmx6g/', 'author': 'LotsofSports', 'text': 'It says aid, but this one says food, water and supplies.  [https://www.cnn.com/2025/10/01/middleeast/israel-gaza-flotilla-explainer-scli-intl](https://www.cnn.com/2025/10/01/middleeast/israel-gaza-flotilla-explainer-scli-intl)', 'urls': ['https://www.cnn.com/2025/10/01/middleeast/israel-gaza-flotilla-explainer-scli-intl](https://www.cnn.com/2025/10/01/middleeast/israel-gaza-flotilla-explainer-scli-intl)'], 'url_domains': ['cnn.com'], 'country': 'USA', 'score': 1}
+2025-10-04 17:24:11 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:24:41 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:25:12 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:25:42 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:26:13 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:26:43 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:27:14 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:27:44 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:28:15 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:28:45 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:29:16 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:29:22 | INFO | {'source': 'comment', 'id': 't1_nhsnx31', 'utc_ts': '2025-10-04T22:29:22Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsnx31/', 'author': 'DJWGibson', 'text': ">“The embassy has been able to meet with Greta,” reads the email. “She informed of dehydration. She has received insufficient amounts of both water and food. She also stated that she had developed rashes which she suspects were caused by bedbugs. She spoke of harsh treatment and said she had been sitting for long periods on hard surfaces.”/n/n>“Another detainee reportedly told another embassy that they had seen her //[Thunberg//] being forced to hold flags while pictures were taken. She wondered whether images of her had been distributed,” the Swedish ministry’s official added./n/n>The allegation was corroborated by at least two other members of the flotilla who had been detained by Israeli forces and released on Saturday./n/n>“They dragged little Greta //[Thunberg//] by her hair before our eyes, beat her, and forced her to kiss the Israeli flag. They did everything imaginable to her, as a warning to others,” the Turkish activist ErsinÇelik, a participant in the Sumud flotilla, told Anadolu news agency./n/nWow. /n/nThat's a lot.", 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:29:23 | INFO | {'source': 'comment', 'id': 't1_nhsnx3s', 'utc_ts': '2025-10-04T22:29:23Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsnx3s/', 'author': 'tajsta', 'text': 'You/'re upset that a newspaper, even one as notoriously critical of Israel as The Guardian, is doing the bare minimum of journalistic diligence? /n/nThese are activists who willingly joined a flotilla to deliberately provoke a confrontation, a flotilla that included convicted criminals and open supporters of terrorist groups like Hamas and Hezbollah, like Yasmin Acar or Thiago Avila who literally proudly photographed himself with the plane hijacker Leila Khaled  and called Hezbollah leader Hassan Nasrallah "inspring". Their entire goal is to create a media spectacle, and now you/'re shocked they/'re making sensationalist claims of abuse? And that The Guardian isn/'t putting unverified claims by people like that in the title?', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:29:46 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:30:16 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:30:46 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:31:17 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:31:47 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:32:17 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:32:47 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:33:18 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:33:48 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:34:18 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:34:48 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:35:19 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:35:49 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:36:19 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:36:35 | INFO | {'source': 'comment', 'id': 't1_nhsp6my', 'utc_ts': '2025-10-04T22:36:35Z', 'subreddit': 'worldnews', 'permalink': 'https://www.reddit.com/r/worldnews/comments/1nx86o3/foreign_ministry_flotilla_to_gaza_had_no/nhsp6my/', 'author': 'Schatzin', 'text': 'Pretty clear you would say "yes hur durr, wise thing to do" but look at the photos/videos context. /n/nThere are cartons of the meds loaded onto boxes, and multiple boxes in a row on one boat that we can see. One doesnt ever need that much on a trip. _You would literally kill yourself using that much paracetamol_ even over months./n/nAlso before you say "it was meds for the whole flotilla". Every boat/person would be having their own stash of meds which are actually "personal meds for your trip". Why tf would 500 boats put all their meds on one boat in a pile of boxes. Gonna swim over everytime you get a fever?/n/nAnd look how mixed up the meds brands are, and names of brands from different countries. Its clearly donated items intended to get to Gaza.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:36:49 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:37:20 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:37:50 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:38:20 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:38:51 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:39:21 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:39:51 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:40:22 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:40:52 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:41:22 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:41:52 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:42:23 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:42:53 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:43:23 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:43:54 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:44:24 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:44:54 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:45:24 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:45:51 | INFO | {'source': 'comment', 'id': 't1_nhsqscy', 'utc_ts': '2025-10-04T22:45:51Z', 'subreddit': 'news', 'permalink': 'https://www.reddit.com/r/news/comments/1nxx54d/greta_thunberg_says_she_is_being_detained_by/nhsqscy/', 'author': 'BKStephens', 'text': '"The Italian legal team representing the flotilla confirmed those detained were left “for hours without food or water – until late last night”, with the exception of “a packet of crisps handed to Greta and shown to the cameras”. Lawyers also reported instances of verbal and physical abuse."/n/n Butt hey, the IDF claim they/'re terrorists, so I guess it/'s fine.', 'urls': [], 'url_domains': [], 'country': 'UNK', 'score': 1}
+2025-10-04 17:45:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:46:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:46:55 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:47:25 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:47:56 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:48:26 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:48:56 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:49:27 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:49:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:50:27 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:50:57 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:51:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:51:58 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:52:28 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:52:59 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:53:30 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:54:01 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:54:32 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:55:02 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:55:33 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:56:04 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:56:34 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:57:05 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:57:35 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:58:06 | INFO | Flushed aggregates to SQLite.
+2025-10-04 17:58:36 | INFO | Flushed aggregates to SQLite.

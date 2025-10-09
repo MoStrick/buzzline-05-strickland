@@ -257,3 +257,21 @@ python3 -m consumers.reddit_gsf_consumer
 
 ---
 
+### Bonus: Country Sentiment Choropleth (Plotly)
+
+In addition to the Matplotlib dashboard, this project includes an **interactive world map** that shades each country by its **average sentiment (VADER)** and shows **message counts** on hover.
+
+Generate the map from the SQLite aggregates:
+
+```bash
+python -m viz.choropleth_country_sentiment
+```
+  This produces an html file:
+    images/gsf_choropleth.html
+
+
+## Notes & tips
+
+- **Accuracy:** Because the consumer stores only **minute-level means** (not every raw message), this script computes country sentiment by **weighting each minute’s mean** by that minute’s country counts. That’s statistically equivalent to the per-message mean if the minute mean is computed across all messages (which it is).
+- **Live updates:** Re-run the script anytime; it refreshes from `gsf.sqlite`. If you want it to auto-refresh, you could wrap it in a small loop that runs every few minutes.
+- **Color scale:** `RdBu` is centered at `0` so negative sentiment is red, positive is blue. You can change the scale in `color_continuous_scale`.
